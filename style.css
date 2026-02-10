@@ -15,12 +15,12 @@ body {
     overflow: hidden; 
 }
 
-.card-header { 
+.card__header { 
     background: #28a745; /* Color verde corporativo corregido */
     height: 80px; 
 }
 
-.card-body { 
+.card__body { 
     padding: 20px; 
     text-align: center; 
 }
