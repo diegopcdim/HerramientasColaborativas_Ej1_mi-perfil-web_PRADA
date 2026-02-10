@@ -1,4 +1,4 @@
-/* Código Base de Partida (Fase 1) */
+/* Código Base de Partida con corrección de Hotfix (Fase 3) */
 body { 
     font-family: sans-serif; 
     background: #f4f4f4; 
@@ -16,7 +16,7 @@ body {
 }
 
 .card-header { 
-    background: #007bff; 
+    background: #28a745; /* Color verde corporativo corregido */
     height: 80px; 
 }
 
@@ -25,11 +25,11 @@ body {
     text-align: center; 
 }
 
-/* --- NUEVO: Modificación Punto 2.3 --- */
+/* Estilos de Habilidades (Fase 2) */
 .lista-de-habilidades {
-    list-style: none; /* Quita los puntos de la lista  */
-    margin-top: 15px; /* Añade el margen solicitado  */
-    padding: 0;       /* Alinea la lista al centro eliminando el espacio lateral */
+    list-style: none; /* Sin puntos */
+    margin-top: 15px; /* Margen solicitado */
+    padding: 0;       
 }
 
 .lista-de-habilidades li {
